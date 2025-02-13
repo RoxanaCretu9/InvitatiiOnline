@@ -405,6 +405,46 @@ padding-inline: 1rem;
     padding-bottom: 2rem;
     border-color: transparent;
 }
+.cards-sty-plus{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: -1px 3px 10px 0 rgb(0 0 0 /6%);
+    border-style: solid;
+    max-width: 320px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding-bottom: 2rem;
+    border-color: #fbd38d;
+}
+
+.card-popular-plus{
+        display: inline-block;
+        white-space: nowrap;
+        vertical-align: middle;
+        border-radius: 0.5rem;
+        font-weight: 700;
+       /* box-shadow: ;*/
+        --badge-bg: #edf2f7;
+        --badge-color: #1a202c;
+        position: absolute;
+        top: -16px;
+        background: #feebc8;
+        color: #9c4221;
+        font-size: 0.75rem;
+        -webkit-padding-start: 1.5rem;
+        padding-inline-start:  1.5rem;
+        -webkit-padding-end:  1.5rem;
+        padding-inline-end:  1.5rem;
+        padding-top:  0.25rem;
+        padding-bottom:  0.25rem;
+        z-index: 1;
+        text-transform: uppercase;
+}
+
 .TITLE-CARD-STYLE{
     WIDTH: 100%;
     height: 70px;
