@@ -1,0 +1,565 @@
+/*                                   NAVBAR                                           */
+.w-100{
+    width: 100%;
+}
+.h-100{
+    height: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.m-auto-nav{
+    margin: auto;
+}
+@media(min-width:576px)
+{
+    .max-width-nav{
+        max-width: 90%;
+    }
+}
+.max-width-nav{
+    width: 100%;
+    max-width: 320px;
+    max-width: 90%;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-light{
+    background-color: #ffffff;
+}
+.nav-wrapper{
+    height: 80px;
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+.card-position{
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #fafafa;
+}
+.color-logo{
+    color:#d15e83;
+}
+.bold{
+    font-weight: 500;
+}
+.self-center{
+    align-self: center;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.font-size-xs{
+    font-size: 8px;
+}
+
+.font-size-md{
+    font-size: 20px;
+}
+.font-special{
+    font-family: "Dancing Script",sans-serif;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+
+.text-special{
+    font-family: "Dancing Script",sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-weight: 600;
+    
+}
+
+
+.font-special-text-body{
+    font-family: "Dancing Script",sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    letter-spacing: 0;
+    text-align: left;
+    color: #1b1a2a;
+}
+.text-body{
+    font-weight: 400;
+    text-align: left;
+    color: #ab405e;
+}
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    position: sticky;
+    top: 0 ;
+    background-color:#fafafa;
+}
+.navbar-menu{
+display: flex;
+gap:10px;
+}
+.navbar-menu-items{
+    border: 1px solid grey;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    align-self: center;
+    font-family: "Dancing Script",sans-serif;
+    color:#d15e83
+}
+ul{
+    padding: 0; /* reset the ul initial padding */
+    margin: 0;
+}
+
+ul li{
+list-style-type: none;/* reset the ul li initial*/
+}
+a{
+    text-decoration: none;
+}
+
+.border-semi-transparent{
+    border-color: hsla(265,40%99%,65%);
+    box-shadow: 10px;
+}
+/*                                 HEADER          */
+
+
+@media (min-width:576px){
+.bg{
+   
+    height: 700px;
+}
+
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border-radius: 20px;
+    box-shadow: 0 20 px 4 px rgba(0,0,0,0.1);*/
+    width: auto;
+}
+
+.bg-position-center{
+    background-position: center;
+   /*height: 400px;
+    width: 410px;
+    /*border-radius: 15px;*/
+}
+.cards-header{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-inline: 2rem 2rem;
+    flex: 1;
+
+}
+
+.p-hedear-sty{
+    padding: 160px;
+}
+
+.line-shape{
+position: relative;
+overflow: hidden;
+line-height: 0;
+z-index: 2;
+pointer-events: none;
+}
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    .line-style{
+        height: 70px;
+
+}
+}
+
+.line-style{
+    height: 110px;
+    color: #d15e83;
+    z-index: 9999;
+
+}
+.header-color{
+    background: linear-gradient(45deg,rgba(30,28,89,1) 0%,
+    rgba(5,175,242,1) 100%);
+}
+.text-center{
+    text-align: center;
+}
+.text-style-title{
+    font-family: "Dancing Script",sans-serif;
+    color:#d15e83
+}
+
+.sec-text-style{
+    padding: 20px 100px;
+}
+
+.max-width{
+    max-width: 90%;
+    margin: auto;
+}
+.color-light{
+    color: #d15e83;
+}
+@media (min-width:576px)
+{
+    .max-width{
+        max-width: 90%;
+    }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.content-split {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+.section-container{
+    padding: 20px 0;
+}
+.content-new{
+    display: flex;
+    flex-direction: 2 column;
+    gap: 40px;
+    padding: 40px;
+}
+.bg-position-center2{
+    background-position: center;
+    height: 350px;
+    width: 50%;
+
+}
+
+.bg-hero{
+    height: 90vb !important;
+background-image: url(./header.png);
+/*background-color: #f8f9fa; #dddad4;*/
+background-position: center;
+box-shadow:unset;
+border-radius:unset !important;
+}
+
+
+.photo-1{
+    background-image: url(photo1.webp);
+    /*box-shadow: -1px 3px 10px 0 rgb(0 0 0 /6%);*/
+}
+.photo-2{
+    background-image: url(photo2.webp);
+    /*box-shadow: -1px 3px 10px 0 rgb(0 0 0 /6%);*/
+}
+.photo-3{
+    background-image: url(photo3.webp);
+    /*box-shadow: -1px 3px 10px 0 rgb(0 0 0 /6%);*/
+}
+.photo-4{
+    background-image: url(photo4.webp);
+    /*box-shadow: -1px 3px 10px 0 rgb(0 0 0 /6%);*/
+}
+.bg2{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    text-align: center;
+}
+.text-padding{
+    padding-top: 8%;
+}
+.separator{
+    display: inline-flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+.mobile-version{
+    display: inherit;
+
+}
+@media scree and (min-width:576px)
+{
+    .mobile-version{
+        display: none;
+    }
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.litera-style{
+    position: absolute;
+    font-size: 5px;
+    font-weight: 700;
+    color: #999;
+    opacity: 0.15;
+    top: -90px;
+    left: -30px;
+}
+.line{
+    height: 4px;
+    background-color: #d15e83;
+    width: 40%;
+    border-radius: 2px;
+}
+
+.line-lg{
+    height: 2px;
+    background-color: #deadbc;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.line-lg2{
+    height: 2px;
+    background-color: #deadbc;
+    width: 50%;
+    border-radius: 2px;
+    margin-left: 50%;
+}
+/*                               Lista preturi                    */
+@media screen and (min-width:62em)
+{
+    .section-price{
+        padding: 9em 3em;
+    }
+}
+.section-price{
+    width: 100%;
+    padding: 7rem 0;
+    background-color: rgba(236,236,255,0.2);
+    margin-top: 0px;
+}
+.container-style{
+width: 100%;
+margin-inline: auto;
+max-width: 1280px;
+padding-inline: 1rem;
+}
+.container-disp{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 4rem;
+}
+.text-price{
+    font-weight: 400;
+    text-align: center;
+    color: #d15e83;
+    font-size: 18px;
+}
+.title-price{
+    font-family: "Dancing Script",sans-serif;
+    font-weight: 600;
+    color:#1b1a2a;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.cards-price-style{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+@media screen and (min-width:48em){
+    .cards-gap{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+
+}
+.cards-gap{
+    display: grid;
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    padding-inline: 1rem 1rem;
+}
+.cards-sty{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: -1px 3px 10px 0 rgb(0 0 0 /6%);
+    border-style: solid;
+    max-width: 320px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding-bottom: 2rem;
+    border-color: transparent;
+}
+.TITLE-CARD-STYLE{
+    WIDTH: 100%;
+    height: 70px;
+    background: #8c8cf9;
+    display: flex;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+.title-st{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.25rem;
+    color: #333;
+}
+.cards-continut{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-inline: 2rem 2rem;
+    flex: 1;
+
+}
+.card-choice{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.pret{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.number-price{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+@media screen and(min-width:48em){
+    .NUMBER-PRICE-STYLE{
+        line-height: 1.2;
+    }
+}
+.NUMBER-PRICE-STYLE{
+    font-family: "Dancing Script",sans-serif;
+    color: #1b1a2a;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+.ron-price{
+    font-weight: 400;
+    color: #718096;
+}
+.button-sty{
+    display: flex;
+    appearance: none;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.2;
+    font-weight: 500;
+   /* transition-property: ;*/
+    transition-duration:5s;
+    height: 2.5rem;
+    min-height: 2.5rem;
+    font-size: 1rem;
+    padding-inline: 1rem 1rem;
+    width: 100%;
+    border-radius: 9999px;
+    background: #8c8cf9;
+    color: #ffffff;
+}
+.price-details{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+}
+
+/*                                FOOTER                */
+.backround-gray
+{
+    background: #fbfbfb;
+    color: #2d3748;
+}
+.text-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 2px;
+    padding: 2px;
+}
+
+@media screen and (min-width:48em)
+{
+    .items-footer{
+grid-template-columns:repeat(3,minmax(0,1fr));
+    }
+}
+@media screen and (min-width:30em)
+{
+    .items-footer{
+grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+}
+.items-footer{
+    display: grid;
+    grid-gap: 1px;
+    font-size: 2px;
+}
+.margin-footer{
+    margin: 30px;
+}
+/*    pentru linie logo linie la footer
+.line-lg2-footer::before{
+    content: "";
+    border-bottom: 1px solid;
+    border-color: #deadbc;
+ -webkit-box-flex: 1;
+ flex-grow: 1;
+ margin-right: 2rem;
+}
+*,*::before,::after{
+    border-color: #deadbc;
+}
+:where(*,*::before,*::after)
+{
+    border-width: 0;
+    border-style: solid;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}*/
