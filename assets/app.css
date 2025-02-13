@@ -245,7 +245,7 @@ pointer-events: none;
 }
 
 .bg-hero{
-    height: 90vb !important;
+    height: 110vb !important;
 background-image: url(./header.png);
 /*background-color: #f8f9fa; #dddad4;*/
 background-position: center;
