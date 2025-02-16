@@ -133,6 +133,10 @@ gap:10px;
     /*color:#d15e83;*/
     
 }
+.navbar-menu-items:hover {
+   /* background-color: bisque;*/
+   color:  #ab405e;
+  }
 ul{
     padding: 0; /* reset the ul initial padding */
     margin: 0;
@@ -448,6 +452,15 @@ padding-inline: 1rem;
     padding-bottom: 2rem;
     border-color: transparent;
 }
+@media screen and (max-width:768px){
+    .cards-sty-plus{
+        width: 70%;
+        height: 100%;
+       
+
+    }
+
+}
 .cards-sty-plus{
     display: flex;
     -webkit-box-align: center;
@@ -600,8 +613,8 @@ padding-inline: 1rem;
     outline-offset: 2px;
     line-height: 1.2;
     font-weight: 500;
-   /* transition-property: ;*/
-    transition-duration:5s;
+   /* transition-property: ;
+    transition-duration:0.5s;*/
     height: 2.5rem;
     min-height: 2.5rem;
     font-size: 1rem;
@@ -610,6 +623,16 @@ padding-inline: 1rem;
     border-radius: 9999px;
     background:#EFBFD0;
     color: #ffffff;
+}
+
+.button-sty:hover{
+    background-color:#b86480 ;
+}
+.button-sty2:hover{
+    background-color:#b86480 ;
+}
+.button-sty3:hover{
+    background-color:#b86480;
 }
 .button-sty2{
     display: flex;
@@ -626,8 +649,8 @@ padding-inline: 1rem;
     outline-offset: 2px;
     line-height: 1.2;
     font-weight: 500;
-   /* transition-property: ;*/
-    transition-duration:5s;
+   /* transition-property: ;
+    transition-duration:5s;*/
     height: 2.5rem;
     min-height: 2.5rem;
     font-size: 1rem;
@@ -652,8 +675,8 @@ padding-inline: 1rem;
     outline-offset: 2px;
     line-height: 1.2;
     font-weight: 500;
-   /* transition-property: ;*/
-    transition-duration:5s;
+   /* transition-property: ;
+    transition-duration:5s;*/
     height: 2.5rem;
     min-height: 2.5rem;
     font-size: 1rem;
