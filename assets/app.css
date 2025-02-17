@@ -261,6 +261,17 @@ pointer-events: none;
 .section-container{
     padding: 20px 0;
 }
+/*@media only screen and (max-width:768px)
+{
+    .content-new{
+        display: flex;
+    flex-direction: 1 column;
+    gap: 20px;
+    padding: 20px;
+    }
+}
+*/
+
 .content-new{
     display: flex;
     flex-direction: 2 column;
